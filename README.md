@@ -8,7 +8,7 @@ Duckeye let you view Knative duck types in your browser.
 
 ## Prerequisites
 
-1. 
+1. [Knative Discovery](https://github.com/knative-sandbox/discovery)
 
 ## Installation
 
