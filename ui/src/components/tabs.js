@@ -1,5 +1,8 @@
 import React from 'react';
-import logo from './../logo.png';
+
+// Uncomment this line and the img reference
+// import logo from './../logo.png';
+
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
@@ -127,7 +130,7 @@ export default class DuckTabs extends React.Component {
                     index={0}
                 >
                     <Box>
-                        <img src={logo} className="App-logo" alt="logo"/>
+                        {/*<img src={logo} className="App-logo" alt="logo"/>*/}
                         <h1>Duckeye</h1>
                         <strong>
                             Discover Knative duck types

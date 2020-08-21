@@ -1,4 +1,5 @@
 cmd/duckeye/kodata
+release
 
 # Binaries for programs and plugins
 *.exe
