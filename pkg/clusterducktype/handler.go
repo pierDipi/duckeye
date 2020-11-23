@@ -20,7 +20,7 @@ func New(lister listers.ClusterDuckTypeLister) *Handler {
 	}
 }
 
-func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+func (h *Handler) ServeHTTP(w http.ResponseWriter, _ *http.Request) {
 
 	ducks, err := h.lister.List(labels.Everything())
 	if err != nil {
