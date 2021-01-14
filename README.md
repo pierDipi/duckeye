@@ -1,6 +1,6 @@
 # Duckeye
 
-Duckeye let you view Knative duck types in your browser.
+Duckeye lets you view Knative types in your browser.
 
 ![Duckeye UI](images/duckeye.png)
 
